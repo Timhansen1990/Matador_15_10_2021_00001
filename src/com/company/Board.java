@@ -20,8 +20,13 @@ public class Board {
                 //            ask if want to buy = yes =buy
                 //continue to next player
 
+                System.out.println("\n"+playersNames[0]+" cashammount "+Bank.cashAmount[0]+"\n"
+                        +playersNames[1]+" cashammount "+Bank.cashAmount[1]+"\n"
+                        +playersNames[2]+" cashammount "+Bank.cashAmount[2]+"\n");
+
             } i = 0;
         }
+        System.out.println("The game is finish and the result is: ");
         System.out.println("\n"+playersNames[0]+" cashammount "+Bank.cashAmount[0]+"\n"
                 +playersNames[1]+" cashammount "+Bank.cashAmount[1]+"\n"
                 +playersNames[2]+" cashammount "+Bank.cashAmount[2]+"\n");
